@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/downImage"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下载图片"/>
+        <Button
+            android:id="@+id/downAPK"
+            android:onClick="downAPK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下载APK"/>
+        <Button
+            android:id="@+id/downDOC"
+            android:onClick="downDOC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下载DOC"/>
+        <Button
+            android:id="@+id/downDOCX"
+            android:onClick="downDOCX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下载DOCX"/>
+        <Button
+            android:id="@+id/downPDF"
+            android:onClick="downPDF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下载PDF"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/downPPT"
+            android:onClick="downPPT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下载PPT"/>
+        <Button
+            android:id="@+id/downPPTX"
+            android:onClick="downPPTX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下载PPTX"/>
+        <Button
+            android:id="@+id/downTXT"
+            android:onClick="downTXT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下载TXT"/>
+        <Button
+            android:id="@+id/downXLS"
+            android:onClick="downXLS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下载XLS"/>
+        <Button
+            android:id="@+id/downXLSX"
+            android:onClick="downXLSX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下载XLSX"/>
+    </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/text"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:text=""/>
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp" />
+
+
+</LinearLayout>
